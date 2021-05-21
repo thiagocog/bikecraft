@@ -1,0 +1,100 @@
+/* INTRODUÇÃO - SOBRE */
+.interna-contato {
+  background: url("/img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* CONTATOS */
+
+.cont {
+  padding: 40px 0;
+}
+
+.cont .form {
+  padding-right: 60px;
+}
+
+.cont .form label {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 2px;
+}
+
+.cont .form input {
+  width: 400px;
+  height: 40px;
+  padding: 0 10px;
+  border: 4px solid #fec63e;
+  margin-bottom: 10px;
+  background: none;
+  outline: none;
+  caret-color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cont .form textarea {
+  width: 400px;
+  height: 120px;
+  border: 4px solid #fec63e;
+  margin-bottom: 20px;
+  background: none;
+  outline: none;
+  caret-color: #fec63e;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cont .form button {
+  background: none;
+  cursor: pointer;
+}
+
+.dados-cont h3 {
+  color: #fec63e;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.dados-cont h3:nth-of-type(2) {
+  margin-top: 36px;
+}
+
+.dados-cont span {
+  display: block;
+  padding-top: 6px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dados-cont span:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.redes-contato {
+  margin-top: 10px;
+}
+
+.redes-contato li img {
+  float: left;
+  padding: 10px;
+  border: 3px solid #fec63e;
+  margin-right: 15px;
+}
+
+.redes-contato li img:hover {
+  border-color: black;
+}
+
+/* MAPA */
+
+.localizacao {
+  padding-bottom: 60px;
+}

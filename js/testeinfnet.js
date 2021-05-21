@@ -1,0 +1,15 @@
+// Problem: A delay in signing the call list which must be signed by all students enrolled in the discipline
+
+// Problema: A demora na assinatura da lista de chamada, em uma aula assistida por 78 alunos de 3 turmas diferentes, organizados em carteiras distribuídas em inúmeras filas de tamanhos variados, indiscriminadamente. 
+
+// Solução genérica: Atribuir um número a cada turma e incluí-lo na respectiva lista; Atribuir um número a cada aluno, em ordem alfabética, entre 1 e o número total de alunos da respectiva turma. Entregar as listas de chamada ao primeiro aluno da primeira fileira de carteiras. Sempre que tiver uma ou mais listas em mãos, o aluno procurará a lista da sua turma e passará as outras para o próximo aluno, quando encontrar a lista certa, procurará o seu número e assinará a lista, depois passará essa lista para o próximo aluno. 
+
+// 1) Atribuir a cada uma das turmas um número de 1 a 3 e identificá-lo em sua respectiva lista; 2) Organizar por ordem alfabética cada uma das listas; 3) Atribuir uma ordem numérica a cada uma das listas, começando por 1; 4) Entregar as listas ao primeiro aluno da primeira fileira de carteiras; 5) Quando receber uma ou mais listas o aluno deverá reter aquela que for da sua turma, procurar o seu número e assinar a lista. 6) Caso já tenha assinado a lista ou a lista não seja a da sua turma, deverá passá-la imediatamente para o próximo aluno, da seguinte forma: 7) Se veio do aluno da frente, passar para trás, se veio do aluno de trás, passar para a frente;
+
+
+// Assign a identification number (IC) to each class and include IC in the respective student name list (with IC from 01 to 03); Assign a identification number (ID) to each attending student, alphabetically (with ID ranging from 1 to the total number of students in the class IC); Deliver all 3 name lists to the first student in the first row; Whenever holding one or more lists, the student will identify IC; If IC does not correspond to his class, then he will immediately pass to the next student. If IC corresponds to his class, he will find his ID, sign in the correct space, then pass to the next student. This procedure will be repeated until all three lists 
+
+
+// Problem: A delay is identified in the signing process of the classroom name lists. 78 students from 3 different classes are randomly distributed in the classroom and each student must find his name in the list that corresponds to his class.
+// Generic Solution: Optimize the identification processes of different lists, as well as student names within the lists, using identification numbers (IC, for classes, and ID, for students). Then, make more efficient the list transfers from one student to the other, leading to a scenario which all 3 lists are been signed by three different students at a specific time.
+// Solution: 
